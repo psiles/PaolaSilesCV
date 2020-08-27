@@ -1,3 +1,9 @@
-
+.body .main .hero {
+  background-color: indigo;
+  color: blue;
+}
+.body .main .hero .MainTitle {
+  color: blue;
+}
 
 /*# sourceMappingURL=Index.css.map */
