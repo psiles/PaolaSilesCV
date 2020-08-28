@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,7 +59,6 @@ table {
   height: 100vh;
 }
 .main .wrapper {
-  background-color: red;
   display: flex;
 }
 .main .wrapper .Hero {
@@ -77,30 +76,42 @@ table {
   font-family: "Playfair Display", serif;
   margin-left: 44%;
   padding-top: 5rem;
+  font-style: italic;
+  font-weight: 600;
 }
 .main .wrapper .Hero .Items-Container {
-  padding-top: 20%;
+  padding-top: 17%;
+}
+.main .wrapper .Hero .Items-Container .items {
+  width: 200px;
+  margin-left: 60%;
 }
 .main .wrapper .Hero .Items-Container .items .links {
   color: white;
   font-family: "Playfair Display", serif;
-  font-size: 2rem;
-  padding-top: 2rem;
+  font-size: 1.5rem;
+  padding-top: 2px;
   margin-left: 65%;
+  font-weight: 400;
+  margin: 10px;
+}
+.main .wrapper .Hero .Items-Container .items .links:hover {
+  color: #b5c6e0;
+  background-color: transparent;
+  opacity: 1;
+  transition: ease-in-out 1s;
 }
 .main .wrapper .info-wrapper {
   padding: 20px;
-  background-color: green;
   width: 100%;
 }
 .main .wrapper .info-wrapper .about .image-content {
   margin: 4rem;
-  background-color: pink;
 }
 .main .wrapper .info-wrapper .about .image-content .image {
-  max-width: 300px;
-  height: 300px;
-  border-radius: 150px;
+  max-width: 250px;
+  height: 250px;
+  border-radius: 160px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -111,8 +122,14 @@ table {
   flex-direction: column;
 }
 .main .wrapper .info-wrapper .about .info-content .title {
+  padding-bottom: 30px;
+  font-size: 3rem;
   display: block;
   margin: 0 auto;
+  margin-top: -30px;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction {
+  font-size: 1.7rem;
 }
 
 /*# sourceMappingURL=Index.css.map */
