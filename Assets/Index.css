@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -99,7 +100,7 @@ table {
   color: #b5c6e0;
   background-color: transparent;
   opacity: 1;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.3s;
 }
 .main .wrapper .info-wrapper {
   padding: 20px;
@@ -122,14 +123,18 @@ table {
   flex-direction: column;
 }
 .main .wrapper .info-wrapper .about .info-content .title {
-  padding-bottom: 30px;
   font-size: 3rem;
   display: block;
   margin: 0 auto;
   margin-top: -30px;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction {
-  font-size: 1.7rem;
+  color: #232136;
+  font-size: 1.1rem;
+  font-family: "PT Serif", serif;
+  line-height: 1.8;
+  padding: 1.1rem;
+  margin-top: -1.6rem;
 }
 
 /*# sourceMappingURL=Index.css.map */

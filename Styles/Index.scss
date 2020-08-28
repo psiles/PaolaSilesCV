@@ -1,5 +1,6 @@
 @import "base/reset";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 .main{
     background: linear-gradient(270deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
@@ -49,7 +50,7 @@
                         color: #b5c6e0;  
                         background-color: transparent;
                         opacity: 1;                                              
-                        transition: ease-in-out 1s;
+                        transition: ease-in-out 0.3s;
                     }
                 }
     
@@ -83,7 +84,7 @@
                     flex-direction: column;
 
                     .title{
-                        padding-bottom: 30px;
+                        
                         font-size: 3rem;
                         display: block;
                         margin: 0 auto;
@@ -91,7 +92,12 @@
     
                     }
                     .introduction{
-                        font-size: 1.7rem;
+                        color: #232136;
+                        font-size: 1.1rem;
+                        font-family: 'PT Serif', serif;
+                        line-height: 1.8;
+                        padding: 1.1rem;
+                        margin-top: -1.6rem;
     
                     }
     
