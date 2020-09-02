@@ -95,6 +95,18 @@ table {
   font-style: italic;
   font-weight: 600;
 }
+.main .wrapper .Hero .social {
+  margin-left: 40%;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.main .wrapper .Hero .social .Icon {
+  padding: 1rem;
+}
+.main .wrapper .Hero .social .Icon .img {
+  max-width: 40px;
+  min-height: 40px;
+}
 .main .wrapper .Hero .Nav {
   overflow: hidden;
   display: flex;

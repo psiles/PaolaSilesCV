@@ -44,6 +44,26 @@ $tablet: 760px;
                 font-weight: 600;
                 
     
+            }            
+            .social{
+                
+                margin-left: 40%;
+                text-align: center;
+                padding-top: 1.5rem;
+                
+                .Icon{
+                    padding: 1rem;
+                    
+                    
+
+                    .img{
+                        
+                        //background-color: red;
+                        max-width: 40px;
+                        min-height: 40px;
+
+                    }
+                }
             }
             .Nav{  
                 //background-color: red;
