@@ -77,18 +77,6 @@ table {
   background-size: cover;
   background-position: center;
 }
-@media (max-width: 1510px) {
-  .main .wrapper .Hero {
-    max-width: 55%;
-    min-width: 55%;
-  }
-}
-@media (max-width: 1310px) {
-  .main .wrapper .Hero {
-    max-width: 45%;
-    min-width: 45%;
-  }
-}
 @media (max-width: 1214px) {
   .main .wrapper .Hero {
     min-width: 100%;
@@ -103,6 +91,11 @@ table {
   margin-left: 45%;
   padding-top: 4rem;
   width: 24.1rem;
+}
+@media (max-width: 1510px) {
+  .main .wrapper .Hero .titlewrap {
+    margin-left: 36%;
+  }
 }
 @media (max-width: 1310px) {
   .main .wrapper .Hero .titlewrap {
@@ -121,18 +114,27 @@ table {
 }
 @media (max-width: 734px) {
   .main .wrapper .Hero .titlewrap {
-    margin-left: 25%;
+    margin-left: 27%;
   }
 }
 @media (max-width: 542px) {
   .main .wrapper .Hero .titlewrap {
-    margin-left: 15%;
+    margin-left: 13%;
   }
 }
 @media (max-width: 472px) {
   .main .wrapper .Hero .titlewrap {
-    margin-left: 5%;
+    margin-left: 27%;
     padding-top: 2rem;
+    display: inline-block;
+    max-width: fit-content;
+  }
+}
+@media (max-width: 422px) {
+  .main .wrapper .Hero .titlewrap {
+    margin-left: 20%;
+    padding-top: 2rem;
+    display: inline;
   }
 }
 .main .wrapper .Hero .titlewrap .Main-Title {
@@ -147,11 +149,37 @@ table {
 @media (max-width: 472px) {
   .main .wrapper .Hero .titlewrap .Main-Title {
     font-size: 4rem;
+    padding-top: 4rem;
+  }
+}
+@media (max-width: 472px) {
+  .main .wrapper .Hero .titlewrap .Main-Title {
+    font-size: 3.5rem;
   }
 }
 .main .wrapper .Hero .titlewrap .social {
   text-align: center;
   padding-top: 1.5rem;
+}
+@media (max-width: 542px) {
+  .main .wrapper .Hero .titlewrap .social {
+    text-align: end;
+  }
+}
+@media (max-width: 472px) {
+  .main .wrapper .Hero .titlewrap .social {
+    display: block;
+  }
+}
+@media (max-width: 472px) {
+  .main .wrapper .Hero .titlewrap .social {
+    text-align: center;
+  }
+}
+@media (max-width: 422px) {
+  .main .wrapper .Hero .titlewrap .social {
+    margin-left: 4rem;
+  }
 }
 .main .wrapper .Hero .titlewrap .social .Icon {
   padding: 1rem;
@@ -188,7 +216,7 @@ table {
 @media (max-width: 1214px) {
   .main .wrapper .Hero .Nav {
     padding-top: 10%;
-    margin-left: 45%;
+    margin-left: 40%;
   }
 }
 .main .wrapper .Hero .Nav .links {

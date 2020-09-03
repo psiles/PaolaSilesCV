@@ -11,7 +11,7 @@ $size05: 845px;
 $size06: 734px;
 $size07: 542px;
 $size08: 472px;
-$size09: 360px;
+$size09: 422px;
 
 
 
@@ -43,18 +43,7 @@ $size09: 360px;
             background: url("../Assets/img/PaolaSiles.jpg") no-repeat;
             background-size: cover;
             background-position: center;
-                  
-
-            
-            @media (max-width: $size01){                
-                max-width: 55%;
-                min-width: 55%;
-            }
-            
-            @media (max-width: $size02){
-                max-width: 45%;
-                min-width: 45%;
-            }
+                       
 
             @media (max-width: $size04){
                 min-width: 100%;                
@@ -68,6 +57,11 @@ $size09: 360px;
                 margin-left: 45%;
                 padding-top: 4rem;
                 width: 24.1rem;
+
+                @media (max-width: $size01){
+                    margin-left: 36%;
+                }
+
                 @media (max-width: $size02){
                     margin-left: 32%;
                 }
@@ -80,17 +74,26 @@ $size09: 360px;
                 }
                 
                 @media (max-width: $size06){
-                    margin-left: 25%;
+                    margin-left: 27%;
                 }
 
                 @media (max-width: $size07){
-                    margin-left: 15%;
+                    margin-left: 13%;
                 }
 
                 @media (max-width: $size08){
-                    margin-left: 5%;
+                    margin-left: 27%;
                     padding-top: 2rem;
+                    display: inline-block;
+                    max-width: fit-content;
                 }
+
+                @media (max-width: $size09){
+                    margin-left: 20%;
+                    padding-top: 2rem;
+                    display: inline;
+                }
+
 
                 .Main-Title{
                     background-color:pink;
@@ -102,14 +105,39 @@ $size09: 360px;
                     font-weight: 600; 
                     @media (max-width: $size08){
                         font-size: 4rem;
+                        padding-top: 4rem;
                     }    
                     
+                    @media (max-width: $size08){
+                        font-size: 3.5rem;
+                        //padding-top: 1rem;
+                    } 
         
                 }            
                 .social{                
                     text-align: center;
                     padding-top: 1.5rem;
-                    
+
+                    @media (max-width: $size07){
+                        text-align: end;
+                    }
+
+                    @media (max-width: $size08){
+                        display: block;
+                        
+                    }
+
+                    @media (max-width: $size08){
+                        text-align: center;
+                        
+                    }
+
+                    @media (max-width: $size09){
+                        margin-left: 4rem;
+
+                    }
+
+                   
                     .Icon{
                         padding: 1rem;                   
     
@@ -151,7 +179,7 @@ $size09: 360px;
                 
                 @media (max-width: $size04){
                     padding-top: 10%;
-                    margin-left: 45%;
+                    margin-left: 40%;
                 } 
 
 
