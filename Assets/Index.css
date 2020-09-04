@@ -321,7 +321,7 @@ table {
   border: 0;
   margin-right: -0.3rem;
   outline: none;
-  background-color: transparent;
+  background-color: green;
   cursor: pointer;
 }
 @media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
@@ -360,8 +360,9 @@ table {
   display: flex;
   margin-left: -0.4rem;
   flex-direction: column;
+  background-color: orange;
   display: none;
-  margin-top: -2rem;
+  margin-top: -0.5rem;
 }
 @media (max-width: 1310px) {
   .main .wrapper .Hero .Nav .subnav .subnav-content {
@@ -415,10 +416,16 @@ table {
   .main .wrapper .Hero .Nav .subnav .subnav-content.open {
     display: flex;
   }
+  .main .wrapper .Hero .Nav .subnav .subnav-content.open:hover {
+    padding: 0;
+  }
 }
 @media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
   .main .wrapper .Hero .Nav .subnav .subnav-content.open {
     display: inline-flex;
+  }
+  .main .wrapper .Hero .Nav .subnav .subnav-content.open:hover {
+    padding: 0;
   }
 }
 .main .wrapper .info-wrapper {

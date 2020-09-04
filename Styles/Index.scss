@@ -187,7 +187,7 @@ $size10: 359px;
                         flex-direction: column;
                                      
                         
-                        } 
+                    } 
   
 
 
@@ -256,7 +256,7 @@ $size10: 359px;
                     padding-left: 8%;
                     margin-top: -14%;              
                                                                
-                 } 
+                } 
 
              
                     .links{                                       
@@ -278,7 +278,7 @@ $size10: 359px;
                         @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                             font-size: 1rem;
                                                                        
-                         }
+                        }
                        
                     }
                     .links:hover{
@@ -288,6 +288,7 @@ $size10: 359px;
                     
                     .subnav{
                     //background-color: pink;
+                        
 
                         .button{
                           font-family: 'Playfair Display', serif;  
@@ -303,8 +304,8 @@ $size10: 359px;
                           border: 0;
                           margin-right: -0.3rem;
                           outline: none;            
-                        //background-color:green;
-                          background-color: transparent;
+                        background-color:green;
+                          //background-color: transparent;
                           cursor: pointer; 
 
 
@@ -315,7 +316,7 @@ $size10: 359px;
                         @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                             font-size: 1rem;
                                                                        
-                         }  
+                        }  
                          
 
                               
@@ -336,40 +337,35 @@ $size10: 359px;
                         }
                         .button:hover{
                             color:  #f187fb;
-                            }  
+                        }  
                         .subnav-content{        
-                          //width: 200px;
-                          display: flex;
-                          margin-left: -0.4rem;
-                          flex-direction: column;
-                          //background-color: orange;          
-                          display: none;
-                          margin-top: -2rem;
-                          
-
-                          @media (max-width: $size02){
-                              display: none;
-                              margin-left: 0.6rem;
-                          }
-
-                          @media (max-width: $size04){                            
+                            //width: 200px;
+                            display: flex;
+                            margin-left: -0.4rem;
+                            flex-direction: column;
+                            background-color: orange;          
                             display: none;
-                            margin-left: -0.5rem;
-                          }
+                            margin-top: -0.5rem;               
+                            
 
 
+                            @media (max-width: $size02){
+                                display: none;
+                                margin-left: 0.6rem;
+                            }
+                            @media (max-width: $size04){                            
+                                display: none;
+                                margin-left: -0.5rem;
+                            }
+                            @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                                flex-flow: wrap;                         
+                            }
+                            @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                                flex-flow: wrap;                                                                           
+                            }
 
-                         @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
-                            flex-flow: wrap;                         
-                        }
 
-                        @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
-                            flex-flow: wrap;                                                                           
-                         }
-
-
-
-                          .title{
+                            .title{
                             padding-top: 0.6rem;
                             margin: 0.4rem;                            
                             border: 0;
@@ -383,7 +379,7 @@ $size10: 359px;
                             }
 
 
-                             @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                            @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
                                 font-size: 1rem;                          
                             }
                             
@@ -392,22 +388,29 @@ $size10: 359px;
                                 padding: 1rem;
                                 background-color: rgba(0, 0, 0, 0.1);  
                                 transition: ease-in-out 0.2s;
-                              } 
-                          }
-                          &.open{
-                            display: inline-flex;
-
-                            @media (max-width: $size05){            
-                                //background-color: red;  
-                                display: flex;                            
-                            }
-
-                            @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                            } 
+                        }
+                            &.open{
                                 display: inline-flex;
-                                
-                                                                           
-                             } 
-                          }
+
+                                @media (max-width: $size05){            
+                                    //background-color: red;  
+                                    display: flex; 
+                                    &:hover{                                                                
+                                        padding: 0;                                       
+                                    }                           
+                                }
+
+                                @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                                    display: inline-flex;
+                                    &:hover{                                                                
+                                        padding: 0;
+                                        
+                                    }
+                                    
+                                                                            
+                                } 
+                            }
                          
                         }
                       }
