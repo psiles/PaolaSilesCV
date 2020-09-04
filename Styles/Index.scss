@@ -12,6 +12,7 @@ $size06: 734px;
 $size07: 542px;
 $size08: 472px;
 $size09: 422px;
+$size10: 359px;
 
 
 
@@ -74,7 +75,7 @@ $size09: 422px;
                 }
                 
                 @media (max-width: $size06){
-                    margin-left: 27%;
+                    margin-left: 30%;
                 }
 
                 @media (max-width: $size07){
@@ -82,7 +83,7 @@ $size09: 422px;
                 }
 
                 @media (max-width: $size08){
-                    margin-left: 27%;
+                    margin-left: 36%;
                     padding-top: 2rem;
                     display: inline-block;
                     max-width: fit-content;
@@ -92,6 +93,10 @@ $size09: 422px;
                     margin-left: 20%;
                     padding-top: 2rem;
                     display: inline;
+                }
+
+                @media (max-width: $size10){
+                    margin-left: 5%;                   
                 }
 
 
@@ -105,7 +110,7 @@ $size09: 422px;
                     font-weight: 600; 
                     @media (max-width: $size08){
                         font-size: 4rem;
-                        padding-top: 4rem;
+                        padding-top: 2rem;
                     }    
                     
                     @media (max-width: $size08){
@@ -133,13 +138,21 @@ $size09: 422px;
                     }
 
                     @media (max-width: $size09){
-                        margin-left: 4rem;
+                        margin-left: 5.5rem;
 
                     }
 
+
                    
                     .Icon{
-                        padding: 1rem;                   
+                        padding: 1rem; 
+                        
+                        
+                    @media (max-width: $size08){
+                        padding: 0;
+                        
+
+                    }
     
                         .img{
                             
@@ -168,22 +181,10 @@ $size09: 422px;
 
                 @media (max-width: $size04){
                     padding-top: 7%;
-                    margin-left: 54%;
+                    margin-left: 48%;
                 } 
 
-                @media (max-width: $size04){
-                    padding-top: 10%;
-                    margin-left: 54%;
-                } 
-
-                
-                @media (max-width: $size04){
-                    padding-top: 10%;
-                    margin-left: 40%;
-                } 
-
-
-              
+             
                     .links{                                       
                         color: white;                                                          
                         font-family: 'Playfair Display', serif;                                                
