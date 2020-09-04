@@ -142,8 +142,21 @@ table {
     margin-left: 5%;
   }
 }
+@media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
+  .main .wrapper .Hero .titlewrap {
+    padding-top: 2%;
+    padding-left: 8%;
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .titlewrap {
+    display: inline;
+    padding-top: inherit;
+    padding-left: 16%;
+  }
+}
 .main .wrapper .Hero .titlewrap .Main-Title {
-  background-color: pink;
   color: blue;
   font-size: 5rem;
   font-family: "Playfair Display", serif;
@@ -160,6 +173,20 @@ table {
 @media (max-width: 472px) {
   .main .wrapper .Hero .titlewrap .Main-Title {
     font-size: 3.5rem;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
+  .main .wrapper .Hero .titlewrap .Main-Title {
+    font-size: 3rem;
+    padding-top: 0rem;
+    display: inline-flex;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .titlewrap .Main-Title {
+    font-size: 3rem;
+    padding-top: 0rem;
+    display: inline-flex;
   }
 }
 .main .wrapper .Hero .titlewrap .social {
@@ -186,8 +213,24 @@ table {
     margin-left: 5.5rem;
   }
 }
+@media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
+  .main .wrapper .Hero .titlewrap .social {
+    text-align: inherit;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .titlewrap .social {
+    display: inline-flex;
+    flex-direction: column;
+  }
+}
 .main .wrapper .Hero .titlewrap .social .Icon {
   padding: 1rem;
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .titlewrap .social .Icon {
+    padding: 0.2rem;
+  }
 }
 @media (max-width: 472px) {
   .main .wrapper .Hero .titlewrap .social .Icon {
@@ -198,8 +241,17 @@ table {
   max-width: 40px;
   min-height: 40px;
 }
+@media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
+  .main .wrapper .Hero .titlewrap .social .Icon .img {
+    background-color: white;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .titlewrap .social .Icon .img {
+    background-color: white;
+  }
+}
 .main .wrapper .Hero .Nav {
-  background-color: red;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -217,6 +269,20 @@ table {
     margin-left: 48%;
   }
 }
+@media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
+  .main .wrapper .Hero .Nav {
+    padding-top: 2%;
+    padding-left: 8%;
+    margin-top: 1%;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .Nav {
+    padding-top: 2%;
+    padding-left: 8%;
+    margin-top: -14%;
+  }
+}
 .main .wrapper .Hero .Nav .links {
   color: white;
   font-family: "Playfair Display", serif;
@@ -228,11 +294,18 @@ table {
   display: block;
   text-decoration: none;
 }
+@media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
+  .main .wrapper .Hero .Nav .links {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .Nav .links {
+    font-size: 1rem;
+  }
+}
 .main .wrapper .Hero .Nav .links:hover {
   color: #f187fb;
-}
-.main .wrapper .Hero .Nav .subnav {
-  background-color: pink;
 }
 .main .wrapper .Hero .Nav .subnav .button {
   font-family: "Playfair Display", serif;
@@ -250,10 +323,16 @@ table {
   outline: none;
   background-color: transparent;
   cursor: pointer;
-  /*@media (max-width: $size04){
-    padding-bottom: 0.5rem;
-    margin-bottom: 0rem;
-  } */
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
+  .main .wrapper .Hero .Nav .subnav .button {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .Nav .subnav .button {
+    font-size: 1rem;
+  }
 }
 .main .wrapper .Hero .Nav .subnav .button .fas {
   font-size: 0.8rem;
@@ -281,7 +360,6 @@ table {
   display: flex;
   margin-left: -0.4rem;
   flex-direction: column;
-  background-color: orange;
   display: none;
   margin-top: -2rem;
 }
@@ -297,6 +375,16 @@ table {
     margin-left: -0.5rem;
   }
 }
+@media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
+  .main .wrapper .Hero .Nav .subnav .subnav-content {
+    flex-flow: wrap;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .Nav .subnav .subnav-content {
+    flex-flow: wrap;
+  }
+}
 .main .wrapper .Hero .Nav .subnav .subnav-content .title {
   padding-top: 0.6rem;
   margin: 0.4rem;
@@ -310,6 +398,11 @@ table {
     font-size: 1.4rem;
   }
 }
+@media only screen and (max-device-height: 451px) and (max-device-width: 824px) {
+  .main .wrapper .Hero .Nav .subnav .subnav-content .title {
+    font-size: 1rem;
+  }
+}
 .main .wrapper .Hero .Nav .subnav .subnav-content .title:hover {
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.1);
@@ -320,8 +413,12 @@ table {
 }
 @media (max-width: 845px) {
   .main .wrapper .Hero .Nav .subnav .subnav-content.open {
-    background-color: red;
     display: flex;
+  }
+}
+@media only screen and (max-device-height: 451px) and (max-device-width: 750px) {
+  .main .wrapper .Hero .Nav .subnav .subnav-content.open {
+    display: inline-flex;
   }
 }
 .main .wrapper .info-wrapper {

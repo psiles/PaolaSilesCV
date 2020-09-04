@@ -73,7 +73,8 @@ $size10: 359px;
                 @media (max-width: $size04){
                     margin-left: 45%;
                 }
-                
+
+             
                 @media (max-width: $size06){
                     margin-left: 30%;
                 }
@@ -99,9 +100,25 @@ $size10: 359px;
                     margin-left: 5%;                   
                 }
 
+                @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                    padding-top: 2%;                    
+                    padding-left: 8%;
+                    margin-top: 2%;                          
+                } 
+
+                @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                    display: inline;
+                    padding-top: inherit;
+                    padding-left:16%;
+                    }  
+                    
+
+
+
+
 
                 .Main-Title{
-                    background-color:pink;
+                    //background-color:pink;
                     color: blue;
                     font-size: 5rem;
                     font-family: 'Playfair Display', serif;                                         
@@ -117,6 +134,25 @@ $size10: 359px;
                         font-size: 3.5rem;
                         //padding-top: 1rem;
                     } 
+
+                    
+
+
+                    @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                        font-size: 3rem;
+                        padding-top: 0rem;
+                        display: inline-flex;              
+                                                                       
+                    }    
+                    
+                    @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                        font-size: 3rem;
+                        padding-top: 0rem;
+                        display: inline-flex;
+                        }  
+
+   
+ 
         
                 }            
                 .social{                
@@ -142,23 +178,47 @@ $size10: 359px;
 
                     }
 
+                    @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                        text-align: inherit;                             
+                    }   
+
+                    @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                        display: inline-flex;
+                        flex-direction: column;
+                                     
+                        
+                        } 
+  
+
 
                    
                     .Icon{
                         padding: 1rem; 
-                        
-                        
-                    @media (max-width: $size08){
-                        padding: 0;
-                        
 
-                    }
+                        @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                            padding: 0.2rem;
+                                        
+                        } 
+                        
+                        
+                        @media (max-width: $size08){
+                        padding: 0;
+                        }
     
-                        .img{
-                            
+                        .img{                            
                             //background-color: red;
                             max-width: 40px;
                             min-height: 40px;
+
+                            @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                                background-color: white;                              
+                            } 
+
+                            @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                               background-color: white;   
+                                                                          
+                            }
+                            
     
                         }
                     }
@@ -168,7 +228,7 @@ $size10: 359px;
                     
 
             .Nav{  
-                background-color: red;
+                //background-color: red;
                 overflow: hidden;
                 display: flex;
                 flex-direction: column;  
@@ -184,6 +244,20 @@ $size10: 359px;
                     margin-left: 48%;
                 } 
 
+
+                 @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                    padding-top: 2%;                    
+                    padding-left: 8%;
+                    margin-top: 1%;                          
+                } 
+
+                @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                    padding-top: 2%;                    
+                    padding-left: 8%;
+                    margin-top: -14%;              
+                                                               
+                 } 
+
              
                     .links{                                       
                         color: white;                                                          
@@ -195,6 +269,16 @@ $size10: 359px;
                         margin: 10px;
                         display: block;        
                         text-decoration: none;
+
+                         
+                         @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                            font-size: 1rem;                           
+                        } 
+
+                        @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                            font-size: 1rem;
+                                                                       
+                         }
                        
                     }
                     .links:hover{
@@ -203,7 +287,7 @@ $size10: 359px;
                     }
                     
                     .subnav{
-                    background-color: pink;
+                    //background-color: pink;
 
                         .button{
                           font-family: 'Playfair Display', serif;  
@@ -223,10 +307,16 @@ $size10: 359px;
                           background-color: transparent;
                           cursor: pointer; 
 
-                          /*@media (max-width: $size04){
-                            padding-bottom: 0.5rem;
-                            margin-bottom: 0rem;
-                          } */  
+
+                         @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                            font-size: 1rem;                           
+                        } 
+                         
+                        @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                            font-size: 1rem;
+                                                                       
+                         }  
+                         
 
                               
                             .fas{
@@ -252,7 +342,7 @@ $size10: 359px;
                           display: flex;
                           margin-left: -0.4rem;
                           flex-direction: column;
-                          background-color: orange;          
+                          //background-color: orange;          
                           display: none;
                           margin-top: -2rem;
                           
@@ -269,6 +359,16 @@ $size10: 359px;
 
 
 
+                         @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                            flex-flow: wrap;                         
+                        }
+
+                        @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                            flex-flow: wrap;                                                                           
+                         }
+
+
+
                           .title{
                             padding-top: 0.6rem;
                             margin: 0.4rem;                            
@@ -281,6 +381,13 @@ $size10: 359px;
                             @media (max-width: $size01){
                                 font-size: 1.4rem;
                             }
+
+
+                             @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
+                                font-size: 1rem;                          
+                            }
+                            
+
                             &:hover{                                                                
                                 padding: 1rem;
                                 background-color: rgba(0, 0, 0, 0.1);  
@@ -289,10 +396,17 @@ $size10: 359px;
                           }
                           &.open{
                             display: inline-flex;
+
                             @media (max-width: $size05){            
-                              background-color: red;  
-                              display: flex;
+                                //background-color: red;  
+                                display: flex;                            
                             }
+
+                            @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
+                                display: inline-flex;
+                                
+                                                                           
+                             } 
                           }
                          
                         }
