@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 
+
 $size01: 1510px;
 $size02: 1310px;
 $size03: 1272px;
@@ -45,78 +46,78 @@ $size10: 359px;
             background-size: cover;
             background-position: center;
                        
-
+        
             @media (max-width: $size04){
                 min-width: 100%;                
             }
             @media (max-width: $size08){
                 min-width: 100%;
             } 
-
+        
             .titlewrap{
                 //background-color: green;
                 margin-left: 45%;
                 padding-top: 4rem;
                 width: 24.1rem;
-
+        
                 @media (max-width: $size01){
                     margin-left: 36%;
                 }
-
+        
                 @media (max-width: $size02){
                     margin-left: 32%;
                 }
                 @media (max-width: $size03){
                     margin-left: 28%;
                 }
-
+        
                 @media (max-width: $size04){
                     margin-left: 45%;
                 }
-
+        
              
                 @media (max-width: $size06){
                     margin-left: 30%;
                 }
-
+        
                 @media (max-width: $size07){
                     margin-left: 13%;
                 }
-
+        
                 @media (max-width: $size08){
                     margin-left: 36%;
                     padding-top: 2rem;
                     display: inline-block;
                     max-width: fit-content;
                 }
-
+        
                 @media (max-width: $size09){
                     margin-left: 20%;
                     padding-top: 2rem;
                     display: inline;
                 }
-
+        
                 @media (max-width: $size10){
                     margin-left: 5%;                   
                 }
-
+        
                 @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
                     padding-top: 2%;                    
                     padding-left: 8%;
                     margin-top: 2%;                          
                 } 
-
+        
                 @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                     display: inline;
                     padding-top: inherit;
                     padding-left:16%;
                     }  
                     
-
-
-
-
-
+        
+        
+        
+        
+        
                 .Main-Title{
                     //background-color:pink;
                     color: blue;
@@ -134,10 +135,10 @@ $size10: 359px;
                         font-size: 3.5rem;
                         //padding-top: 1rem;
                     } 
-
+        
                     
-
-
+        
+        
                     @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
                         font-size: 3rem;
                         padding-top: 0rem;
@@ -150,51 +151,51 @@ $size10: 359px;
                         padding-top: 0rem;
                         display: inline-flex;
                         }  
-
-   
- 
+        
+        
+        
         
                 }            
                 .social{                
                     text-align: center;
                     padding-top: 1.5rem;
-
+        
                     @media (max-width: $size07){
                         text-align: end;
                     }
-
+        
                     @media (max-width: $size08){
                         display: block;
                         
                     }
-
+        
                     @media (max-width: $size08){
                         text-align: center;
                         
                     }
-
+        
                     @media (max-width: $size09){
                         margin-left: 5.5rem;
-
+        
                     }
-
+        
                     @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
                         text-align: inherit;                             
                     }   
-
+        
                     @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                         display: inline-flex;
                         flex-direction: column;
                                      
                         
                     } 
-  
-
-
+        
+        
+        
                    
                     .Icon{
                         padding: 1rem; 
-
+        
                         @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                             padding: 0.2rem;
                                         
@@ -204,29 +205,29 @@ $size10: 359px;
                         @media (max-width: $size08){
                         padding: 0;
                         }
-    
+        
                         .img{                            
                             //background-color: red;
                             max-width: 40px;
                             min-height: 40px;
-
+        
                             @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
                                 background-color: white;                              
                             } 
-
+        
                             @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                                background-color: white;   
                                                                           
                             }
                             
-    
+        
                         }
                     }
                 }
-
+        
             }
                     
-
+        
             .Nav{  
                 //background-color: red;
                 overflow: hidden;
@@ -234,30 +235,30 @@ $size10: 359px;
                 flex-direction: column;  
                 padding-top: 10%;                 
                 margin-left: 47%; 
-
+        
                 @media (max-width: $size02){
                     margin-left: 59%;
                 }    
-
+        
                 @media (max-width: $size04){
                     padding-top: 7%;
                     margin-left: 48%;
                 } 
-
-
+        
+        
                  @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
                     padding-top: 2%;                    
                     padding-left: 8%;
                     margin-top: 1%;                          
                 } 
-
+        
                 @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                     padding-top: 2%;                    
                     padding-left: 8%;
                     margin-top: -14%;              
                                                                
                 } 
-
+        
              
                     .links{                                       
                         color: white;                                                          
@@ -269,12 +270,12 @@ $size10: 359px;
                         margin: 10px;
                         display: block;        
                         text-decoration: none;
-
+        
                          
                          @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
                             font-size: 1rem;                           
                         } 
-
+        
                         @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                             font-size: 1rem;
                                                                        
@@ -289,7 +290,7 @@ $size10: 359px;
                     .subnav{
                     //background-color: pink;
                         
-
+        
                         .button{
                           font-family: 'Playfair Display', serif;  
                           font-weight: 400;
@@ -307,8 +308,8 @@ $size10: 359px;
                         background-color:green;
                           //background-color: transparent;
                           cursor: pointer; 
-
-
+        
+        
                          @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
                             font-size: 1rem;                           
                         } 
@@ -318,12 +319,12 @@ $size10: 359px;
                                                                        
                         }  
                          
-
+        
                               
                             .fas{
                               font-size: 0.8rem;
                               padding-left: 0.2rem; 
-
+        
                               @media (max-width: $size02){
                                 transform:rotate(90deg);                                
                               }
@@ -347,8 +348,8 @@ $size10: 359px;
                             display: none;
                             margin-top: -0.5rem;               
                             
-
-
+        
+        
                             @media (max-width: $size02){
                                 display: none;
                                 margin-left: 0.6rem;
@@ -363,8 +364,8 @@ $size10: 359px;
                             @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                                 flex-flow: wrap;                                                                           
                             }
-
-
+        
+        
                             .title{
                             padding-top: 0.6rem;
                             margin: 0.4rem;                            
@@ -373,17 +374,17 @@ $size10: 359px;
                             font-size: 1.6rem;
                             color: white; 
                             
-
+        
                             @media (max-width: $size01){
                                 font-size: 1.4rem;
                             }
-
-
+        
+        
                             @media only screen and (max-device-height : 451px) and (max-device-width : 824px) {
                                 font-size: 1rem;                          
                             }
                             
-
+        
                             &:hover{                                                                
                                 padding: 1rem;
                                 background-color: rgba(0, 0, 0, 0.1);  
@@ -392,7 +393,7 @@ $size10: 359px;
                         }
                             &.open{
                                 display: inline-flex;
-
+        
                                 @media (max-width: $size05){            
                                     //background-color: red;  
                                     display: flex; 
@@ -400,7 +401,7 @@ $size10: 359px;
                                         padding: 0;                                       
                                     }                           
                                 }
-
+        
                                 @media only screen and (max-device-height : 451px) and (max-device-width : 750px) {
                                     display: inline-flex;
                                     &:hover{                                                                
@@ -415,10 +416,13 @@ $size10: 359px;
                         }
                       }
                 
-    
+        
             }
-    
+        
         }
+
+
+
         .info-wrapper{ 
             background: linear-gradient(270deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
             //background: linear-gradient(90deg, hsla(177, 87%, 79%, 1) 0%, hsla(235, 89%, 70%, 1) 100%);            
