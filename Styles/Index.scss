@@ -448,7 +448,7 @@ $size10: 359px;
                         font-size: 2.5rem;
                         display: block;
                         margin: 0 auto; 
-                        padding-bottom: 2rem; 
+                        padding-bottom: 1rem; 
                     }
                     .introduction{
                         //padding-top: 2.5rem;
@@ -561,8 +561,7 @@ $size10: 359px;
 
                             .carrer03{
                                 font-size: 1.5rem;
-                                padding-left: 1rem;
-                                padding-bottom: 0.5rem;
+                                padding-left: 1rem;                                
                                 padding-top: 1.5rem;
                                 display: inline-flex;
                                 
@@ -570,30 +569,31 @@ $size10: 359px;
                             .container{
 
                                 display: flex;
-                                .language{
-                                
-                                    padding: 2rem;
-                                    max-width: 100px;
-                                    max-height: 100px;
-                                    background-color: pink;
+                                .language{                                       
+                                    max-height: 100px;                                    
                                     margin: 1rem;
     
                                     .lan{
                                         font-size: 1.3rem;
-                                        padding-left: 1rem;
-                                        padding-bottom: 0.5rem;
-                                        padding-top: 1.5rem;
+                                        padding-bottom: 0.5rem;                                       
                                     }
     
                                     .level{
                                         color: #232136;
                                         font-size: 1.1rem;
                                         font-family: 'PT Serif', serif;
-                                        line-height: 1.8;
-                                        padding-left: 2rem; 
+                                        line-height: 1.8;                                        
                                     }
                                 }
 
+                            }
+                            .lorem{
+                                padding: 0;
+                                margin-top: -0.5rem;
+                                visibility: hidden;
+                                .lorem{
+
+                                }
                             }
 
                            

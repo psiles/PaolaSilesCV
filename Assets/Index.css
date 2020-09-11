@@ -473,7 +473,7 @@ table {
   font-size: 2.5rem;
   display: block;
   margin: 0 auto;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction {
   min-width: 100%;
@@ -557,7 +557,6 @@ table {
 .main .wrapper .info-wrapper .about .info-content .introduction .education03 .carrer03 {
   font-size: 1.5rem;
   padding-left: 1rem;
-  padding-bottom: 0.5rem;
   padding-top: 1.5rem;
   display: inline-flex;
 }
@@ -565,24 +564,23 @@ table {
   display: flex;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction .education03 .container .language {
-  padding: 2rem;
-  max-width: 100px;
   max-height: 100px;
-  background-color: pink;
   margin: 1rem;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction .education03 .container .language .lan {
   font-size: 1.3rem;
-  padding-left: 1rem;
   padding-bottom: 0.5rem;
-  padding-top: 1.5rem;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction .education03 .container .language .level {
   color: #232136;
   font-size: 1.1rem;
   font-family: "PT Serif", serif;
   line-height: 1.8;
-  padding-left: 2rem;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education03 .lorem {
+  padding: 0;
+  margin-top: -0.5rem;
+  visibility: hidden;
 }
 
 /*# sourceMappingURL=Index.css.map */
