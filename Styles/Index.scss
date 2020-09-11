@@ -440,7 +440,7 @@ $size10: 359px;
                     }
 
                 }
-                .info-content{                    
+                .info-content{
                     display: flex;
                     flex-direction: column;
 
@@ -450,6 +450,18 @@ $size10: 359px;
                         margin: 0 auto; 
                         padding-bottom: 1rem; 
                     }
+
+                    .about-me{
+                        .about{
+                            padding: 1rem;
+                            font-family: 'PT Serif', serif;
+                            font-size: 1.2rem;
+                            line-height: 1.5;
+                            color: #232136;
+
+                        }
+                    }
+
                     .introduction{
                         //padding-top: 2.5rem;
                         min-width: 100%;
@@ -601,6 +613,30 @@ $size10: 359px;
     
     
                     }
+
+                    .introduction02{
+                        display: flex;
+                        //background-color: green;
+                        flex-wrap: wrap;
+                        .informatica{                           
+                            //background-color:pink;                           
+                            padding: 2rem;   
+                            margin: 0.5rem;                         
+                            .title{
+                                font-size: 1.5rem;                                
+                                padding-bottom: 0.5rem;
+                               
+                            }
+                            .information05{
+                                color: #232136;
+                                font-size: 1.1rem;
+                                font-family: 'PT Serif', serif;
+                                line-height: 1.8;                                 
+                            }
+                        }
+                    }
+
+
     
                 }
     

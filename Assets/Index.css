@@ -475,6 +475,13 @@ table {
   margin: 0 auto;
   padding-bottom: 1rem;
 }
+.main .wrapper .info-wrapper .about .info-content .about-me .about {
+  padding: 1rem;
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #232136;
+}
 .main .wrapper .info-wrapper .about .info-content .introduction {
   min-width: 100%;
 }
@@ -581,6 +588,24 @@ table {
   padding: 0;
   margin-top: -0.5rem;
   visibility: hidden;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction02 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction02 .informatica {
+  padding: 2rem;
+  margin: 0.5rem;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction02 .informatica .title {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction02 .informatica .information05 {
+  color: #232136;
+  font-size: 1.1rem;
+  font-family: "PT Serif", serif;
+  line-height: 1.8;
 }
 
 /*# sourceMappingURL=Index.css.map */
