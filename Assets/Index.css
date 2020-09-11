@@ -489,16 +489,44 @@ table {
 .main .wrapper .info-wrapper .about .info-content .introduction .education-wrap {
   display: flex;
 }
+.main .wrapper .info-wrapper .about .info-content .introduction .education-wrap .img {
+  margin-top: 0.8rem;
+  max-width: 3.5rem;
+  max-height: 3.5rem;
+  margin-right: -1rem;
+  border-radius: 160px;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education-wrap .img02 {
+  margin-top: 0.8rem;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  margin-right: -0.5rem;
+  border-radius: 160px;
+  margin-left: 0.6rem;
+}
 .main .wrapper .info-wrapper .about .info-content .introduction .education-wrap .education {
   flex-direction: column;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction .education-wrap .education .carrer {
   font-size: 1.5rem;
   padding-left: 1rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
   padding-top: 1.5rem;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction .education-wrap .education .information {
+  color: #232136;
+  font-size: 1.1rem;
+  font-family: "PT Serif", serif;
+  line-height: 1.8;
+  padding-left: 2rem;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education .carrer {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education .information {
   color: #232136;
   font-size: 1.1rem;
   font-family: "PT Serif", serif;
@@ -512,10 +540,44 @@ table {
 .main .wrapper .info-wrapper .about .info-content .introduction .education02 .carrer02 {
   font-size: 1.5rem;
   padding-left: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   padding-top: 1.5rem;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction .education02 .information02 {
+  color: #232136;
+  font-size: 1.1rem;
+  font-family: "PT Serif", serif;
+  line-height: 1.8;
+  padding-left: 2rem;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education03 {
+  display: flex;
+  flex-direction: column;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education03 .carrer03 {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+  display: inline-flex;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education03 .container {
+  display: flex;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education03 .container .language {
+  padding: 2rem;
+  max-width: 100px;
+  max-height: 100px;
+  background-color: pink;
+  margin: 1rem;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education03 .container .language .lan {
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .education03 .container .language .level {
   color: #232136;
   font-size: 1.1rem;
   font-family: "PT Serif", serif;

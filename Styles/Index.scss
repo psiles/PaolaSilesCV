@@ -473,6 +473,21 @@ $size10: 359px;
                             display: flex;
 
                             .img{
+                                margin-top: 0.8rem;
+                                max-width: 3.5rem;
+                                max-height: 3.5rem;
+                                margin-right: -1rem;
+                                border-radius: 160px;
+
+                            }
+
+                            .img02{
+                                margin-top: 0.8rem;
+                                max-width: 2.5rem;
+                                max-height: 2.5rem;
+                                margin-right: -0.5rem;
+                                border-radius: 160px;
+                                margin-left: 0.6rem;
 
                             }
 
@@ -481,7 +496,7 @@ $size10: 359px;
                                 .carrer{                                
                                     font-size: 1.5rem;
                                     padding-left: 1rem;
-                                    padding-bottom: 1.5rem;
+                                    padding-bottom: 0.5rem;
                                     padding-top: 1.5rem;
                                 }
                                 .information{                                                               
@@ -500,6 +515,22 @@ $size10: 359px;
                             
                         }
 
+                        .education{
+                            .carrer{
+                                font-size: 1.5rem;
+                                padding-left: 1rem;
+                                padding-bottom: 0.5rem;
+                                padding-top: 1.5rem;
+                            }
+                            .information{
+                                color: #232136;
+                                font-size: 1.1rem;
+                                font-family: 'PT Serif', serif;
+                                line-height: 1.8;
+                                padding-left: 2rem; 
+                            }
+                        }
+
 
                         .education02{
                             display: flex;
@@ -508,7 +539,7 @@ $size10: 359px;
                             .carrer02{                                
                                 font-size: 1.5rem;
                                 padding-left: 1rem;
-                                padding-bottom: 1rem;
+                                padding-bottom: 0.5rem;
                                 padding-top: 1.5rem;
                             }
                             .information02{                                                               
@@ -521,6 +552,51 @@ $size10: 359px;
                                     
                             }                         
 
+                        }
+
+                        .education03{
+                            display: flex;
+                            flex-direction: column;
+                            
+
+                            .carrer03{
+                                font-size: 1.5rem;
+                                padding-left: 1rem;
+                                padding-bottom: 0.5rem;
+                                padding-top: 1.5rem;
+                                display: inline-flex;
+                                
+                            }
+                            .container{
+
+                                display: flex;
+                                .language{
+                                
+                                    padding: 2rem;
+                                    max-width: 100px;
+                                    max-height: 100px;
+                                    background-color: pink;
+                                    margin: 1rem;
+    
+                                    .lan{
+                                        font-size: 1.3rem;
+                                        padding-left: 1rem;
+                                        padding-bottom: 0.5rem;
+                                        padding-top: 1.5rem;
+                                    }
+    
+                                    .level{
+                                        color: #232136;
+                                        font-size: 1.1rem;
+                                        font-family: 'PT Serif', serif;
+                                        line-height: 1.8;
+                                        padding-left: 2rem; 
+                                    }
+                                }
+
+                            }
+
+                           
                         }
     
     
