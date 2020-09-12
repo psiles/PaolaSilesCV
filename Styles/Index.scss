@@ -639,12 +639,28 @@ $size10: 359px;
                    
     
                 }
+                .picture-info{
+                    .authorName{
+                        margin-top: 1rem;
+                        padding: 0.1rem;
+                        font-family: 'PT Serif', serif;
+                        font-size: 1rem;
+                        
+                        color: #232136;
+                        font-weight: bold;
+                    }
+                    .author{
+                        padding: 0.1rem;
+                        font-family: 'PT Serif', serif;
+                        font-size: 1rem;
+                       
+                        color: #232136;
+                    }
+                }
+
+
                  
-                <div class="picture-info">
-                    <p class="authorName">Fotografía: Peter Stumpf.</p>
-                    <p class="author">@peter_s</p>
-                    <p class="author">Fuente: <a class="Icon" type="GitHub" href="https://unsplash.com" alt="GitHub">https://unsplash.com</a></p>
-                </div>
+         
     
             }
         }
