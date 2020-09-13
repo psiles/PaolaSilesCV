@@ -251,8 +251,8 @@ table {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding-top: 10%;
-  margin-left: 47%;
+  padding-top: 18%;
+  margin-left: 44%;
 }
 @media (max-width: 1310px) {
   .main .wrapper .Hero .Nav {
@@ -280,7 +280,7 @@ table {
   }
 }
 .main .wrapper .Hero .Nav .links {
-  color: white;
+  color: #f187fb;
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   padding-top: 2px;
@@ -301,12 +301,12 @@ table {
   }
 }
 .main .wrapper .Hero .Nav .links:hover {
-  color: #f187fb;
+  color: #e81cff;
 }
 .main .wrapper .Hero .Nav .subnav .button {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  color: white;
+  color: #f187fb;
   font-size: 1.4rem;
   padding: 0rem;
   padding-top: 0.4rem;
@@ -350,7 +350,7 @@ table {
   }
 }
 .main .wrapper .Hero .Nav .subnav .button:hover {
-  color: #f187fb;
+  color: #e81cff;
 }
 .main .wrapper .Hero .Nav .subnav .subnav-content {
   display: flex;
@@ -482,8 +482,18 @@ table {
   line-height: 1.5;
   color: #232136;
 }
+.main .wrapper .info-wrapper .about .info-content .about-me .signature {
+  padding: 1rem;
+  font-family: "PT Serif", serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #232136;
+  Font-style: italic;
+  font-weight: 600;
+}
 .main .wrapper .info-wrapper .about .info-content .introduction {
   min-width: 100%;
+  margin-top: 1rem;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction .items .list {
   color: #232136;
@@ -584,11 +594,6 @@ table {
   font-family: "PT Serif", serif;
   line-height: 1.8;
 }
-.main .wrapper .info-wrapper .about .info-content .introduction .education03 .lorem {
-  padding: 0;
-  margin-top: -0.5rem;
-  visibility: hidden;
-}
 .main .wrapper .info-wrapper .about .info-content .introduction02 {
   display: flex;
   flex-wrap: wrap;
@@ -596,16 +601,27 @@ table {
 .main .wrapper .info-wrapper .about .info-content .introduction02 .informatica {
   padding: 2rem;
   margin: 0.5rem;
+  border-radius: 1rem;
+  min-width: 15rem;
+  max-width: 15rem;
+  max-height: 16rem;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction02 .informatica:hover {
+  background: linear-gradient(225deg, #9bf8f3 0%, #6e7af7 100%);
 }
 .main .wrapper .info-wrapper .about .info-content .introduction02 .informatica .title {
   font-size: 1.5rem;
   padding-bottom: 0.5rem;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction02 .informatica .information05 {
+  display: flex;
   color: #232136;
   font-size: 1.1rem;
   font-family: "PT Serif", serif;
   line-height: 1.8;
+}
+.main .wrapper .info-wrapper .about .picture-info {
+  margin-top: 0.9rem;
 }
 .main .wrapper .info-wrapper .about .picture-info .authorName {
   margin-top: 1rem;

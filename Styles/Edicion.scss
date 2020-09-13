@@ -206,8 +206,8 @@ $size10: 359px;
                 overflow: hidden;
                 display: flex;
                 flex-direction: column;  
-                padding-top: 10%;                 
-                margin-left: 47%; 
+                padding-top: 18%;                 
+                margin-left: 44%; 
         
                 @media (max-width: $size02){
                     margin-left: 59%;
@@ -234,7 +234,7 @@ $size10: 359px;
         
              
                     .links{                                       
-                        color: white;                                                          
+                        color: #f187fb;                                                         
                         font-family: 'Playfair Display', serif;                                                
                         font-size: 1.5rem;     
                         padding-top: 2px;                                            
@@ -256,7 +256,7 @@ $size10: 359px;
                        
                     }
                     .links:hover{
-                        color: #f187fb;
+                        color: #e81cff;
                  
                     }
                     
@@ -266,7 +266,7 @@ $size10: 359px;
                         .button{
                           font-family: 'Playfair Display', serif;  
                           font-weight: 400;
-                          color: white; 
+                          color: #f187fb;   
                           font-size: 1.4rem;
                           padding: 0rem;
                           padding-top: 0.4rem;
@@ -308,7 +308,7 @@ $size10: 359px;
                             }
                         }
                         .button:hover{
-                            color:  #f187fb;
+                            color: #e81cff;
                         }  
                         .subnav-content{                              
                             display: flex;

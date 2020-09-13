@@ -251,8 +251,8 @@ table {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding-top: 10%;
-  margin-left: 47%;
+  padding-top: 18%;
+  margin-left: 44%;
 }
 @media (max-width: 1310px) {
   .main .wrapper .Hero .Nav {
@@ -280,7 +280,7 @@ table {
   }
 }
 .main .wrapper .Hero .Nav .links {
-  color: white;
+  color: #f187fb;
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   padding-top: 2px;
@@ -301,12 +301,12 @@ table {
   }
 }
 .main .wrapper .Hero .Nav .links:hover {
-  color: #f187fb;
+  color: #e81cff;
 }
 .main .wrapper .Hero .Nav .subnav .button {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  color: white;
+  color: #f187fb;
   font-size: 1.4rem;
   padding: 0rem;
   padding-top: 0.4rem;
@@ -350,7 +350,7 @@ table {
   }
 }
 .main .wrapper .Hero .Nav .subnav .button:hover {
-  color: #f187fb;
+  color: #e81cff;
 }
 .main .wrapper .Hero .Nav .subnav .subnav-content {
   display: flex;
