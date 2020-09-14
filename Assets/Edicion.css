@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import "../single-song-styles.css";
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap");
 html, body, div, span, applet, object, iframe,
@@ -460,16 +461,16 @@ table {
 .main .wrapper .info-wrapper .about .info-content .introduction {
   display: flex;
   flex-wrap: wrap;
-  background-color: green;
+  align-items: center;
+  justify-content: center;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction .container02 {
-  background-color: pink;
-  margin: 0.5rem;
-  justify-content: center;
-  min-width: 300px;
-  max-width: 300px;
-  align-items: center;
-  max-height: 200px;
+  background-color: #103783;
+  margin: 2rem;
+  min-width: 330px;
+  max-width: 330px;
+  border-radius: 16px;
+  overflow: hidden;
 }
 .main .wrapper .info-wrapper .about .info-content .introduction .container02 .title02 {
   font-size: 1.5rem;
@@ -481,26 +482,34 @@ table {
   font-family: "PT Serif", serif;
   line-height: 1.8;
 }
-.main .wrapper .info-wrapper .about .info-content .introduction .container {
-  background-color: pink;
-  margin: 0.5rem;
+.main .wrapper .info-wrapper .about .info-content .introduction .container-videos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .wrapper .info-wrapper .about .info-content .introduction .container-videos .container {
+  background: linear-gradient(90deg, #9bf8f3 0%, #6e7af7 100%);
+  margin: 2rem;
   justify-content: center;
   min-width: 320px;
   max-width: 320px;
   align-items: center;
+  padding: 1rem;
+  border-radius: 16px;
 }
-.main .wrapper .info-wrapper .about .info-content .introduction .container .title {
+.main .wrapper .info-wrapper .about .info-content .introduction .container-videos .container .title {
   font-size: 1.5rem;
   padding-bottom: 0.5rem;
 }
-.main .wrapper .info-wrapper .about .info-content .introduction .container .information {
+.main .wrapper .info-wrapper .about .info-content .introduction .container-videos .container .information {
   color: #232136;
   font-size: 1.1rem;
   font-family: "PT Serif", serif;
   line-height: 1.8;
 }
 .main .wrapper .info-wrapper .about .picture-info .authorName {
-  margin-top: 1rem;
+  margin-top: -1rem;
   padding: 0.1rem;
   font-family: "PT Serif", serif;
   font-size: 1rem;
