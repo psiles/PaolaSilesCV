@@ -304,6 +304,9 @@ table {
 .main .wrapper .Hero .Nav .links:hover {
   color: #e81cff;
 }
+.main .wrapper .Hero .Nav .subnav {
+  font-family: "Playfair Display", serif;
+}
 .main .wrapper .Hero .Nav .subnav .button {
   font-family: "Playfair Display", serif;
   font-weight: 400;
@@ -387,7 +390,7 @@ table {
   margin: 0.4rem;
   border: 0;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: white;
 }
 @media (max-width: 1510px) {
@@ -508,8 +511,11 @@ table {
   font-family: "PT Serif", serif;
   line-height: 1.8;
 }
+.main .wrapper .info-wrapper .about .picture-info {
+  margin-top: 0.5rem;
+}
 .main .wrapper .info-wrapper .about .picture-info .authorName {
-  margin-top: -1rem;
+  margin-top: 0.5rem;
   padding: 0.1rem;
   font-family: "PT Serif", serif;
   font-size: 1rem;
