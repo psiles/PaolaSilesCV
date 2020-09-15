@@ -491,6 +491,22 @@ table {
   Font-style: italic;
   font-weight: 600;
 }
+.main .wrapper .info-wrapper .about .info-content .about-me02 .about02 {
+  padding: 1rem;
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #232136;
+  font-weight: 600;
+}
+.main .wrapper .info-wrapper .about .info-content .about-me02 .signature02 {
+  padding: 1rem;
+  font-family: "PT Serif", serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #232136;
+  padding-bottom: 2rem;
+}
 .main .wrapper .info-wrapper .about .info-content .introduction {
   min-width: 100%;
   margin-top: 1rem;
@@ -621,7 +637,7 @@ table {
   line-height: 1.8;
 }
 .main .wrapper .info-wrapper .about .picture-info {
-  margin-top: 0.9rem;
+  margin-top: 1.5rem;
 }
 .main .wrapper .info-wrapper .about .picture-info .authorName {
   margin-top: 1rem;
